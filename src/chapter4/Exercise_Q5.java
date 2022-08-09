@@ -28,6 +28,7 @@ public class Exercise_Q5 {
 				System.out.print("*");
 			}
 			System.out.println();
+			
 		}
 	}
 }
