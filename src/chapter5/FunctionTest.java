@@ -1,5 +1,5 @@
 package chapter5;
-
+// 사칙연산 함수 만들기 예제
 public class FunctionTest {
 	public static void main(String[] args) {
 		int num1 = 10;
