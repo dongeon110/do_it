@@ -1,5 +1,5 @@
 package chapter4;
-
+// 연습문제 * 다이아 모양
 public class Exercise_Q5 {
 	public static void main(String[] args) {
 		int row;

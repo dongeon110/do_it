@@ -1,5 +1,5 @@
 package chapter4;
-
+// for문
 public class ForExample {
 	public static void main(String[] args) {
 		int i;

@@ -1,5 +1,5 @@
 package chapter4;
-
+// 구구단 단보다 곱하는 수가 작거나 같은 경우까지만 출력
 public class Exercise_Q3 {
 	public static void main(String[] args) {
 		int dan;

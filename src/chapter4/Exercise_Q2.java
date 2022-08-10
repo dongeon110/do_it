@@ -1,5 +1,5 @@
 package chapter4;
-
+// 연습문제 구구단 짝수단
 public class Exercise_Q2 {
 	public static void main(String[] args) {
 		int dan;

@@ -1,5 +1,5 @@
 package chapter4;
-
+// while 반복문 예제
 public class WhileExample1 {
 	public static void main(String[] args) {
 		int num = 1;

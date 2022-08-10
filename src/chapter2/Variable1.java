@@ -1,5 +1,5 @@
 package chapter2;
-
+// 변수 형 변환
 public class Variable1 {
 	public static void main (String[] args) {
 		long level = 12345678900l;

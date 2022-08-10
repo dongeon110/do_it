@@ -1,5 +1,5 @@
 package chapter4;
-
+// do - while문 (일단 do 1번 실행하고 while 반복)
 public class DoWhileExample {
 	public static void main(String[] args) {
 		int num = 1;

@@ -1,5 +1,5 @@
 package chapter4;
-
+// switch - case 예제
 public class SwitchCase {
 	public static void main(String[] args) {
 		int ranking = 1;

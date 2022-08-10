@@ -1,5 +1,5 @@
 package chapter2;
-
+// 상수 변수
 public class Constant {
 	public static void main(String[] args) {
 		final int MAX_NUM = 100;

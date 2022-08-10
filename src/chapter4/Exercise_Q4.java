@@ -1,5 +1,5 @@
 package chapter4;
-
+// 연습문제 * 산모양
 public class Exercise_Q4 {
 	public static void main(String[] args) {
 		

@@ -1,5 +1,5 @@
 package chapter3;
-
+// 산술 연산자
 public class OperationEx1 {
 	public static void main(String[] args) {
 		int mathScore = 90;

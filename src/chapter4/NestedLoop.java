@@ -1,5 +1,5 @@
 package chapter4;
-
+// 다중 for문 구구단
 public class NestedLoop {
 	public static void main(String[] args) {
 		int dan;

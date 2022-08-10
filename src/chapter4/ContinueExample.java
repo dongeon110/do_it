@@ -1,5 +1,5 @@
 package chapter4;
-
+// continue
 public class ContinueExample {
 	public static void main(String[] args) {
 		int total = 0;

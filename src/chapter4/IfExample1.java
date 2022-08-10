@@ -1,5 +1,5 @@
 package chapter4;
-
+// if문 예제
 public class IfExample1 {
 	public static void main(String[] args) {
 		int age = 7;

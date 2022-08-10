@@ -1,5 +1,5 @@
 package chapter4;
-
+// 연습문제
 public class Exercise_Q1 {
 	public static void main(String[] args) {
 		// if 문

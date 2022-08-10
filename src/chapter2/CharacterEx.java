@@ -1,5 +1,5 @@
 package chapter2;
-
+// 문자열 변수에 숫자를 저장한다면
 public class CharacterEx {
 	public static void main(String[] args) {
 		char ch1 = '한';

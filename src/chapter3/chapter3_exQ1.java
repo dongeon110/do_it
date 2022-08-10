@@ -1,5 +1,5 @@
 package chapter3;
-
+// 3장 연습문제 1~3
 public class chapter3_exQ1 {
 	public static void main(String[] args) {
 		int myAge = 23;

@@ -1,5 +1,5 @@
 package chapter2;
-
+// double, float type
 public class DoubleEx1 {
 	public static void main(String[] args) {
 		double dnum = 3.14;

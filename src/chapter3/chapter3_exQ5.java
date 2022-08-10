@@ -1,5 +1,5 @@
 package chapter3;
-
+// 연습문제 5
 public class chapter3_exQ5 {
 	public static void main(String[] args) {
 		int num1 = 2;
