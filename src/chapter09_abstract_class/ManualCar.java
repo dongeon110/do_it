@@ -1,4 +1,4 @@
-package chapter9_abstract_class;
+package chapter09_abstract_class;
 // 추상클래스와 템플릿 메서드
 public class ManualCar extends Car {
 	@Override
@@ -10,5 +10,10 @@ public class ManualCar extends Car {
 	@Override
 	public void stop() {
 		System.out.println("브레이크로 정지합니다.");
+	}
+	
+	@Override
+	public void wiper() {
+		System.out.println("사람이 빠르기를 조절합니다.");
 	}
 }

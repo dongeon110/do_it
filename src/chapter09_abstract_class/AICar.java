@@ -1,4 +1,4 @@
-package chapter9_abstract_class;
+package chapter09_abstract_class;
 // 추상클래스와 템플릿 메서드 - Car 상속 받아서 추상메서드
 public class AICar extends Car {
 	@Override
@@ -10,5 +10,10 @@ public class AICar extends Car {
 	@Override
 	public void stop() {
 		System.out.println("스스로 멈춥니다.");
+	}
+	
+	@Override
+	public void wiper() {
+		System.out.println("비나 눈의 양에 따라 빠르기가 자동으로 조절됩니다.");
 	}
 }
