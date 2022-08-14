@@ -5,8 +5,8 @@ public class StringEquals {
 		String str1 = new String("abc");
 		String str2 = new String("abc");
 		
-		System.out.println(str1 == str2); // F
-		System.out.println(str1.equals(str2)); // T
+		System.out.println(str1 == str2); // F = 같은 주소 -> F
+		System.out.println(str1.equals(str2)); // T = 같은 문자열 -> T
 		
 		Integer i1 = new Integer(100);
 		Integer i2 = new Integer(100);

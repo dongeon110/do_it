@@ -12,6 +12,17 @@ class Student {
 	public String toString() {
 		return studentId + ", " + studentName;
 	}
+	
+	@Override
+	public boolean equals(Object obj) { // equals Method 재정의
+		if(obj instanceof Student) {
+			Student std = (Student) obj;
+			if(this.studentId == std.studentId) // 학번이 같으면 true 반환
+				return true;
+			else return false;
+		}
+		return false;
+	}
 }
 
 public class EqualsTest {
