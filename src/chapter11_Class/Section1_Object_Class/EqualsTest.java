@@ -23,6 +23,11 @@ class Student {
 		}
 		return false;
 	}
+	
+	@Override // hashCode() 재정의
+	public int hashCode() {
+		return studentId; // 학번 반환
+	}
 }
 
 public class EqualsTest {
@@ -53,5 +58,13 @@ public class EqualsTest {
 			System.out.println("Lee == Sang");
 		else
 			System.out.println("Lee != Sang");
+		
+		
+		// hashCode
+		System.out.println("studentLee hashCode : " + studentLee.hashCode());
+		System.out.println("studentSang hashCode : " + studentSang.hashCode());
+		
+		System.out.println("studentLee 실제 주소 값 : " + System.identityHashCode(studentLee));
+		System.out.println("studentSang 실제 주소 값 : " + System.identityHashCode(studentSang)); // 실제 메모리 값은 다른 모습
 	}
 }

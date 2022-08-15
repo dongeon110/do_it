@@ -31,5 +31,4 @@ public class MyDateTest {
 		MyDate date2 = new MyDate(9, 18, 2004);
 		System.out.println(date1.equals(date2));
 	}
-
 }
