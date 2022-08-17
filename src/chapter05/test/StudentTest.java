@@ -1,4 +1,7 @@
-package chapter05;
+package chapter05.test;
+
+import chapter05.Student;
+
 // 인스턴트 여러개 생성하기
 public class StudentTest {
 	public static void main(String[] args) {
