@@ -23,7 +23,7 @@ class Outer {
 				System.out.println("localNum = " + localNum);
 				System.out.println("outNum = " + outNum + "(외부 클래스 인스턴스 변수)");
 				System.out.println("Outer.sNum = " + Outer.sNum + "(외부 클래스 정적 변수)");
-			}	
+			}
 		}
 		
 		return new MyRunnable();
