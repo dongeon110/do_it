@@ -4,6 +4,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class FileOutputStreamTest1 {
+	
 	public static void main(String[] args) {
 		try(FileOutputStream fos = new FileOutputStream("output.txt")) {
 //			// fos = new FileOutputStream("output.txt", true); // 로 true 매개변수를 추가하면 덮어쓰지 않고 이어서 출력
