@@ -1,10 +1,10 @@
 package chapter05;
 // 학생 클래스
 public class Student {
-	int studentID;
-	String studentName;
-	int grade;
-	String address;
+	public int studentID;
+	public String studentName;
+	public int grade;
+	public String address;
 	
 	public void showStudentInfo() {
 		System.out.println(studentName + ", " + address); // 이름, 주소 출력
